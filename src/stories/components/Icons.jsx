@@ -7,6 +7,7 @@ import humidity_icon from '../assets/humidity.png';
 import rain_icon from '../assets/rain.png';
 import snow_icon from '../assets/snow.png';
 import wind_icon from '../assets/wind.png';
+import logo_icon from '../assets/gotologo.png';
 
 const Icons = () => {
     const iconMap = {
@@ -17,7 +18,9 @@ const Icons = () => {
         humidity: humidity_icon,
         rain: rain_icon,
         snow: snow_icon,
-        wind: wind_icon
+        wind: wind_icon,
+        logo: logo_icon,
+        
     };
 
     return (
