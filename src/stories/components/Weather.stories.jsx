@@ -14,8 +14,8 @@ export default {
 
 const Template = (args) => <Weather {...args} />;
 
-export const Home = Template.bind({});
+export const Search = Template.bind({});
 
-Home.args = {
+Search.args = {
     searchCity: 'Stockholm',  // Default starting city
 };
