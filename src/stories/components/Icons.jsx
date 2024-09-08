@@ -9,20 +9,19 @@ import snow_icon from '../assets/snow.png';
 import wind_icon from '../assets/wind.png';
 import logo_icon from '../assets/gotologo.png';
 
-const Icons = () => {
-    const iconMap = {
-        search: search_icon,
-        clear: clear_icon,
-        cloud: cloud_icon,
-        drizzle: drizzle_icon,
-        humidity: humidity_icon,
-        rain: rain_icon,
-        snow: snow_icon,
-        wind: wind_icon,
-        logo: logo_icon,
-        
-    };
+export const iconMap = {
+    search: search_icon,
+    clear: clear_icon,
+    cloud: cloud_icon,
+    drizzle: drizzle_icon,
+    humidity: humidity_icon,
+    rain: rain_icon,
+    snow: snow_icon,
+    wind: wind_icon,
+    logo: logo_icon,
+};
 
+const Icons = () => {
     return (
         <div>
             <h1>Weather Icons - We did not create these icons!</h1>
@@ -43,3 +42,4 @@ const Icons = () => {
 };
 
 export default Icons;
+
